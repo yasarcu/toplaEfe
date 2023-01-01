@@ -13,10 +13,13 @@
 		let input = document.getElementById("answer").value;
 		if (input == num1 + num2) {
 			document.body.style.backgroundColor = "green";
-			alert("Bravo doğru!");
+            document.getElementById("dogru").innerHTML = "Doğru";
+            //document.getElementById("dogru").body.style.backgroundColor = "green";
+			//alert("Bravo doğru!");
 		} else {
-			document.body.style.backgroundColor = "red";
-			alert("Yanlış tekrar dene!");
+			document.body.style.backgroundColor = "pink";
+            document.getElementById("dogru").innerHTML = "Yanlış";
+			//alert("Yanlış tekrar dene!");
 		}
 	}
 
@@ -27,3 +30,5 @@
 		document.getElementById("answer").value = "";
 		document.body.style.backgroundColor = "yellow";
 	}
+
+    ontouchstart.document.getElementById("answer").innerHTML = " ";
