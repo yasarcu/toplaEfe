@@ -9,9 +9,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="question"></p>
-	<input type="text" id="answer">
+    <p class="genislik" id="question"></p>
+    <div class="genislik">
+	<input type="text" id="answer" onfocus="this.value=''" >
 	<button onclick="checkAnswer()">Topla</button>
 	<button onclick="newQuestion()">Yeni soru</button>
+    </div>
+    <p class="genislik" id="dogru"></p>
+
 </body>
 </html>
