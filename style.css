@@ -1,0 +1,20 @@
+/* Sayıların görünümü */
+  p {
+  font-size: x-large;
+  background-color: chocolate;
+  }
+
+  input {
+    font-size: x-large;
+    background-color: chocolate;
+    width: 3em;
+  }
+
+  button {
+    font-size: x-large;
+    background-color: chocolate;
+  }
+
+  .genislik {
+    
+  }
