@@ -2,7 +2,7 @@
     window.onload = function() {
 		document.body.style.backgroundColor = "yellow";
          num1 = Math.floor(Math.random() * 11);
-         num2 = Math.floor(Math.random() * (20 - num1 + 1)) + num1;
+         num2 = Math.floor(Math.random() * (10 - num1 + 1)) + num1;
          document.getElementById("question").innerHTML = num1 + " + " + num2 + " = ";
     }
     // let num1 = Math.floor(Math.random() * 11); // generate random number from 0 to 10
